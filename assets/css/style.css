@@ -66,6 +66,12 @@
 !important
 }
 
+.yellow {
+  font-size: 17px;
+  color: #f2cd75;
+!important
+}
+
 .white-header {
     font-size: 25px;
     color: white;
