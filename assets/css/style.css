@@ -1,3 +1,22 @@
+/* Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Covered By Your Grace);
+.textie {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 22px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+.title {
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Allura);
+.title-supreme {
+    font-family: 'Allura', cursive;
+    font-size: 60px;
+}
+
 /* Container */
 .main .container {
     padding: 5em 2.5em 8em 2.5em;
@@ -7,7 +26,7 @@
 
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -39,3 +58,21 @@
 .w3-hover-theme:hover {color:#000 !important; background-color:#efc050 !important}
 .w3-hover-text-theme:hover {color:#efc050 !important}
 .w3-hover-border-theme:hover {border-color:#efc050 !important}
+
+/* Font Awesome icon color modifier */
+.white {
+  font-size: 17px;
+  color: white;
+!important
+}
+
+.white-header {
+    font-size: 25px;
+    color: white;
+    !important
+}
+
+/* Input border color */
+.textarea-override {
+    box-shadow: inset 0 0 0 1.5px #ecb535 !important;
+}
